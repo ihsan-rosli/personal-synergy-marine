@@ -90,8 +90,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\License_Cert\\License.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T06:37:08.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T06:37:08.871Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\Fleet\\FleetOverview.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T04:51:05.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T04:51:05.291Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\Fleet\\OurFleetSpecifications.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T05:06:51.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T05:06:51.97Z"
             },
             {
               "$type": "Document",
@@ -125,9 +122,9 @@
               "Title": "Career.cshtml",
               "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Career\\Career.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Career\\Career.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Career\\Career.cshtml",
-              "RelativeToolTip": "synergymarine_v1\\Views\\Career\\Career.cshtml",
-              "ViewState": "AgIAAOsAAAAAAAAAAAArwPcAAABPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Career\\Career.cshtml*",
+              "RelativeToolTip": "synergymarine_v1\\Views\\Career\\Career.cshtml*",
+              "ViewState": "AgIAAOsAAAAAAAAAAAD4v/YAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-10T05:09:51.06Z",
               "EditorCaption": ""
@@ -142,8 +139,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\Service\\CapabilitySpectrum.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAwwAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T04:48:02.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T04:48:02.459Z"
             },
             {
               "$type": "Document",
@@ -155,8 +151,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\HSE.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T04:44:27.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T04:44:27.318Z"
             },
             {
               "$type": "Document",
@@ -168,8 +163,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\News\\News.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T05:08:33.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T05:08:33.884Z"
             },
             {
               "$type": "Document",
@@ -181,8 +175,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\Service\\Clients.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T06:27:47.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T06:27:47.371Z"
             },
             {
               "$type": "Document",
@@ -194,8 +187,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\VisionMission.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T04:41:37.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T04:41:37.417Z"
             },
             {
               "$type": "Document",
@@ -207,8 +199,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\MdMeeting.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAawBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T04:21:57.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T04:21:57.777Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\CompanyProfile.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAawBcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T05:59:26.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T05:59:26.222Z"
             },
             {
               "$type": "Document",
@@ -233,8 +223,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAMYAAAAAAAAAAAAAAM0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T03:35:36.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T03:35:36.335Z"
             },
             {
               "$type": "Document",
@@ -246,8 +235,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\ContactUs\\ContactUs.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAawBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T05:10:59.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T05:10:59.959Z"
             },
             {
               "$type": "Document",
@@ -259,8 +247,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\CoreValues.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T04:43:42.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T04:43:42.024Z"
             },
             {
               "$type": "Document",
@@ -272,8 +259,7 @@
               "RelativeToolTip": "synergymarine_v1\\Views\\Home\\Home.cshtml",
               "ViewState": "AgIAACIFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T03:52:37.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T03:52:37.331Z"
             },
             {
               "$type": "Document",
@@ -284,8 +270,7 @@
               "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
               "RelativeToolTip": "synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-03-10T03:35:26.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T03:35:26.778Z"
             },
             {
               "$type": "Document",
@@ -296,8 +281,7 @@
               "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\logo.png",
               "RelativeToolTip": "synergymarine_v1\\wwwroot\\images\\logo.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2026-03-10T03:35:18.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-10T03:35:18.552Z"
             }
           ]
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("synergymarine_v1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+018e309fa0f9c40140cd92d0c3287a7d10b3c7c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53b06bb4c606dcc23f2322fa0ad9fcc05e37b643")]
 [assembly: System.Reflection.AssemblyProductAttribute("synergymarine_v1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("synergymarine_v1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

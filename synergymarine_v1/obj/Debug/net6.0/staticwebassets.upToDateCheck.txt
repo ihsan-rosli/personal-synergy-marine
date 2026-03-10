@@ -89,6 +89,8 @@ wwwroot\images\synergyexplorer.png
 wwwroot\images\synergyoffice.heic
 wwwroot\images\synergyoffice.jpg
 wwwroot\images\twinsfleet.png
+wwwroot\images\workers.DNG
+wwwroot\images\workers.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
