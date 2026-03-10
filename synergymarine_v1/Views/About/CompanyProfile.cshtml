@@ -18,7 +18,7 @@
     .cp-hero-bg {
         position: absolute;
         inset: 0;
-        background: url('/images/synergyexplorer.png') center center / cover no-repeat;
+        background: url('/images/image slide 4.jpg') center center / cover no-repeat;
         filter: brightness(0.85);
         transform: scale(1.03);
         transition: transform 8s ease;
@@ -76,15 +76,18 @@
         width: 100%;
     }
 
+    /* ── CHANGED: stack image on top, content below ── */
     .cp-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 3.5rem;
-        align-items: start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
     }
 
     /* Left: Text */
     .cp-text-col {
+        width: 100%;
+        max-width: 860px;
     }
 
     .cp-lead-heading {
@@ -93,7 +96,7 @@
         color: #1e293b;
         line-height: 1.4;
         margin-bottom: 1.5rem;
-        border-left: 4px solid #2563eb;
+        border-left: 4px solid #dc2626;
         padding-left: 1rem;
     }
 
@@ -121,8 +124,8 @@
 
     .cp-tag {
         background: #eff6ff;
-        color: #1d4ed8;
-        border: 1px solid #bfdbfe;
+        color: #dc2626;
+        border: 1px solid #dc2626;
         border-radius: 6px;
         font-size: 12px;
         font-weight: 600;
@@ -130,17 +133,18 @@
         letter-spacing: 0.3px;
     }
 
-    /* Right: Image stack */
+    /* ── CHANGED: image column now full-width centered ── */
     .cp-image-col {
-        position: sticky;
-        top: 100px;
+        width: 100%;
+        max-width: 860px;
+        position: static;
     }
 
     .cp-img-main {
         width: 100%;
         border-radius: 12px;
         object-fit: cover;
-        height: 320px;
+        height: 420px;
         box-shadow: 0 8px 30px rgba(0,0,0,0.12);
         display: block;
     }
@@ -160,7 +164,6 @@
         gap: 1rem;
         margin-top: 1.5rem;
         padding-top: 1.5rem;
-        border-top: 1px solid #e5e7eb;
     }
 
     .cp-stat {
@@ -189,7 +192,6 @@
     .dir-section {
         margin-top: 4rem;
         padding-top: 3rem;
-        border-top: 2px solid #e5e7eb;
     }
 
     .dir-section-label {
@@ -218,27 +220,30 @@
     .dir-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2.5rem;
+        gap: 3rem;
+        align-items: start;
     }
 
     .dir-card {
         background: #ffffff;
-        border: 1px solid #e5e7eb;
         border-radius: 16px;
-        overflow: hidden;
-        transition: box-shadow 0.3s ease, transform 0.3s ease;
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s ease;
     }
 
         .dir-card:hover {
-            box-shadow: 0 12px 40px rgba(0,0,0,0.1);
             transform: translateY(-4px);
         }
 
     .dir-card-img-wrap {
         width: 100%;
-        height: 340px;
+        height: 380px;
         overflow: hidden;
-        background: #f8fafc;
+        border-radius: 12px;
+        box-shadow: 0 8px 30px rgba(0,0,0,0.12);
     }
 
         .dir-card-img-wrap img {
@@ -255,8 +260,10 @@
     }
 
     .dir-card-body {
-        padding: 1.75rem 1.75rem 2rem;
-        border-top: 3px solid #2563eb;
+        width: 100%;
+        padding: 1.75rem 0.25rem 2rem;
+        border-top: 3px solid #dc2626;
+        margin-top: 1.25rem;
     }
 
     .dir-name {
@@ -308,15 +315,6 @@
             height: 280px;
         }
 
-        .cp-grid {
-            grid-template-columns: 1fr;
-            gap: 2rem;
-        }
-
-        .cp-image-col {
-            position: static;
-        }
-
         .cp-img-main {
             height: 240px;
         }
@@ -349,11 +347,18 @@
 <div class="cp-content-wrapper">
     <div class="cp-grid">
 
-        <!-- LEFT: Text -->
-        <div class="cp-text-col">
+        <!-- TOP: Image (moved above text) -->
+        <div class="cp-image-col">
             <p class="cp-lead-heading">
                 Synergy Marine (M) Sdn Bhd was established on 2012 as a Bumiputera company.
             </p>
+            <video src="/videos/FINAL.mp4" class="cp-img-main" autoplay muted loop playsinline></video>
+            <p class="cp-img-caption">MV Synergy Aurora — part of our operational fleet</p>
+        </div>
+
+        <!-- BOTTOM: Text -->
+        <div class="cp-text-col">
+
 
             <p class="cp-body-text">
                 We are registered company under Companies Commission of Malaysia (1019421-T) and Ministry of Finance
@@ -407,23 +412,18 @@
             </div>
         </div>
 
-        <!-- RIGHT: Image -->
-        <div class="cp-image-col">
-            <img src="/images/synergyoffice.jpg" alt="Synergy Aurora Vessel" class="cp-img-main" />
-            <p class="cp-img-caption">MV Synergy Aurora — part of our operational fleet</p>
-        </div>
-
     </div>
 
     <!-- ── DIRECTORS SECTION ── -->
     <div class="dir-section">
-        <p class="dir-section-label">Leadership</p>
-        <h2 class="dir-section-title">Meet the Captains of the Ship </h2>
-        <p class="dir-section-subtitle">
-            Every great voyage needs a great crew at the helm. Meet the experienced duo steering Synergy Marine
-            through the waves of the oil &amp; gas industry — decade after decade.
-        </p>
-
+        <center>
+            <p class="dir-section-label">Leadership</p>
+            <h2 class="dir-section-title">Meet the Captains of the Ship </h2>
+            <p class="dir-section-subtitle">
+                Every great voyage needs a great crew at the helm. Meet the experienced duo steering Synergy Marine
+                through the waves of the oil &amp; gas industry — decade after decade.
+            </p>
+        </center>
         <div class="dir-grid">
 
             <!-- Director 1 -->
@@ -445,7 +445,7 @@
                         Beyond Synergy Marine, he's an active voice in the industry: Vice President of MOSVA
                         (Malaysia OSV Owners' Association) 2025/2026, lifetime member of MASTRA, and a member of
                         IAMSP (UK), IMSML, and the Malaysia Norway Business Council. Basically, if there's a room
-                        where maritime decisions are being made — he's in it. 🌊
+                        where maritime decisions are being made — he's in it.
                     </p>
                 </div>
             </div>
@@ -468,7 +468,7 @@
                     <p class="dir-bio" style="margin-top:0.75rem;">
                         But his role doesn't stop at the spreadsheet. He also oversees facilities and overall
                         operations, making sure the whole organization runs like a well-oiled (pun intended) machine.
-                        The kind of person who makes sure the ship is always stocked before it sets sail. ⚙️
+                        The kind of person who makes sure the ship is always stocked before it sets sail.
                     </p>
                 </div>
             </div>

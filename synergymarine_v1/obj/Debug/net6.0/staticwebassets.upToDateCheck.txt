@@ -1,5 +1,13 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\1.jpg
+wwwroot\images\2.jpg
+wwwroot\images\3.jpg
+wwwroot\images\4.jpg
+wwwroot\images\5.jpg
+wwwroot\images\6.jpg
+wwwroot\images\careerimg.jpg
+wwwroot\images\ceo.JPG
 wwwroot\images\clients\borneoredtech.jpg
 wwwroot\images\clients\carigali hess.jfif
 wwwroot\images\clients\carimin.jfif
@@ -25,8 +33,15 @@ wwwroot\images\clients\tcenginnering.png
 wwwroot\images\clients\umw.png
 wwwroot\images\clients\velesto.png
 wwwroot\images\clients\Vestigo-logo.png
+wwwroot\images\comp1.png
+wwwroot\images\comp2.png
+wwwroot\images\comp4.jpg
+wwwroot\images\comp5.heic
+wwwroot\images\comp5.jpg
+wwwroot\images\compimg.jpg
 wwwroot\images\Dato-Dr-Roslan-Ahmad.jpg
 wwwroot\images\demo.jpg
+wwwroot\images\favicon.ico
 wwwroot\images\hse\health&safetypolicy.jpg
 wwwroot\images\image slide 1.jpg
 wwwroot\images\image slide 2.jpg
@@ -67,6 +82,7 @@ wwwroot\images\news\Our Offerings & Services.jpg
 wwwroot\images\news\The Edge.jpg
 wwwroot\images\news\UPEN.jpg
 wwwroot\images\ocean.jpg
+wwwroot\images\people.jpg
 wwwroot\images\sm-logo2-removebg-preview.png
 wwwroot\images\synergyaurora.png
 wwwroot\images\synergyexplorer.png
