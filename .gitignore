@@ -1,6 +1,8 @@
 # .NET build output
 bin/
 obj/
+AssemblyInfo.cs
+*.cache
 
 # Visual Studio
 .vs/
