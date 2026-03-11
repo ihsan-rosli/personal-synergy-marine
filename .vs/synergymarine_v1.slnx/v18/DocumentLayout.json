@@ -1,73 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\",
+  "WorkspaceRootPath": "C:\\_localrepo\\personal\\personal-synergy-marine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\career\\career.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\career\\career.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\career\\career.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\license_cert\\license.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\license_cert\\license.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\license_cert\\license.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\news\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\news\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\news\\news.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\fleet\\ourfleetspecifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\fleet\\ourfleetspecifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\fleet\\ourfleetspecifications.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\fleet\\fleetoverview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\fleet\\fleetoverview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\fleet\\fleetoverview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\service\\clients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\service\\clients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\service\\clients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\service\\capabilityspectrum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\service\\capabilityspectrum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\service\\capabilityspectrum.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\about\\hse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\about\\hse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\about\\hse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\about\\visionmission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\about\\visionmission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\about\\visionmission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\about\\mdmeeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\about\\mdmeeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\about\\mdmeeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\about\\companyprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\about\\companyprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\about\\companyprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\about\\corevalues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\about\\corevalues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\about\\corevalues.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\contactus\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\contactus\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\contactus\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\users\\synergy marine 12\\documents\\github\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|c:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\wwwroot\\images\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{599A1147-7DB4-B535-414C-56C76764CE40}|synergymarine_v1\\synergymarine_v1.csproj|solutionrelative:synergymarine_v1\\wwwroot\\images\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     }
   ],
@@ -78,27 +78,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "License.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\License_Cert\\License.cshtml",
-              "RelativeDocumentMoniker": "synergymarine_v1\\Views\\License_Cert\\License.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\License_Cert\\License.cshtml",
-              "RelativeToolTip": "synergymarine_v1\\Views\\License_Cert\\License.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-10T06:37:08.871Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FleetOverview.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Fleet\\FleetOverview.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Fleet\\FleetOverview.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Fleet\\FleetOverview.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Fleet\\FleetOverview.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Fleet\\FleetOverview.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\Fleet\\FleetOverview.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -108,9 +96,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "OurFleetSpecifications.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Fleet\\OurFleetSpecifications.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Fleet\\OurFleetSpecifications.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Fleet\\OurFleetSpecifications.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Fleet\\OurFleetSpecifications.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Fleet\\OurFleetSpecifications.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\Fleet\\OurFleetSpecifications.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -120,22 +108,34 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Career.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Career\\Career.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Career\\Career.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Career\\Career.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Career\\Career.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Career\\Career.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\Career\\Career.cshtml",
-              "ViewState": "AgIAAOsAAAAAAAAAAAD4v/UAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAOsAAAAAAAAAAAD4v/wAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-10T05:09:51.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "License.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\License_Cert\\License.cshtml",
+              "RelativeDocumentMoniker": "synergymarine_v1\\Views\\License_Cert\\License.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\License_Cert\\License.cshtml",
+              "RelativeToolTip": "synergymarine_v1\\Views\\License_Cert\\License.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-10T06:37:08.871Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CapabilitySpectrum.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Service\\CapabilitySpectrum.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Service\\CapabilitySpectrum.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Service\\CapabilitySpectrum.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Service\\CapabilitySpectrum.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Service\\CapabilitySpectrum.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\Service\\CapabilitySpectrum.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAwwAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -145,9 +145,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "HSE.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\HSE.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\HSE.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\About\\HSE.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\HSE.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\HSE.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\HSE.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -157,9 +157,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "News.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\News\\News.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\News\\News.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\News\\News.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\News\\News.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\News\\News.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\News\\News.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -169,9 +169,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Clients.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Service\\Clients.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Service\\Clients.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Service\\Clients.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Service\\Clients.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Service\\Clients.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\Service\\Clients.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAArwBgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -181,9 +181,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "VisionMission.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\VisionMission.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\VisionMission.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\About\\VisionMission.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\VisionMission.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\VisionMission.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\VisionMission.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -193,9 +193,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "MdMeeting.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\MdMeeting.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\MdMeeting.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\About\\MdMeeting.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\MdMeeting.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\MdMeeting.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\MdMeeting.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAawBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -205,9 +205,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "CompanyProfile.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\CompanyProfile.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\CompanyProfile.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\About\\CompanyProfile.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\CompanyProfile.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\CompanyProfile.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\CompanyProfile.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAawBcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -217,9 +217,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAMYAAAAAAAAAAAAAAM0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -229,9 +229,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ContactUs.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\ContactUs\\ContactUs.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\ContactUs\\ContactUs.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\ContactUs\\ContactUs.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\ContactUs\\ContactUs.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\ContactUs\\ContactUs.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\ContactUs\\ContactUs.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAawBQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -241,9 +241,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "CoreValues.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\CoreValues.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\CoreValues.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\About\\CoreValues.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\About\\CoreValues.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\About\\CoreValues.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\About\\CoreValues.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -253,9 +253,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Home\\Home.cshtml",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Home\\Home.cshtml",
               "RelativeDocumentMoniker": "synergymarine_v1\\Views\\Home\\Home.cshtml",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\Views\\Home\\Home.cshtml",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\Views\\Home\\Home.cshtml",
               "RelativeToolTip": "synergymarine_v1\\Views\\Home\\Home.cshtml",
               "ViewState": "AgIAACIFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -265,9 +265,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "sm-logo2-removebg-preview.png",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
               "RelativeDocumentMoniker": "synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
               "RelativeToolTip": "synergymarine_v1\\wwwroot\\images\\sm-logo2-removebg-preview.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2026-03-10T03:35:26.778Z"
@@ -276,9 +276,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "logo.png",
-              "DocumentMoniker": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\logo.png",
+              "DocumentMoniker": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\wwwroot\\images\\logo.png",
               "RelativeDocumentMoniker": "synergymarine_v1\\wwwroot\\images\\logo.png",
-              "ToolTip": "C:\\Users\\Synergy Marine 12\\Documents\\GitHub\\synergy_marine2026\\synergymarine_v1\\wwwroot\\images\\logo.png",
+              "ToolTip": "C:\\_localrepo\\personal\\personal-synergy-marine\\synergymarine_v1\\wwwroot\\images\\logo.png",
               "RelativeToolTip": "synergymarine_v1\\wwwroot\\images\\logo.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2026-03-10T03:35:18.552Z"
