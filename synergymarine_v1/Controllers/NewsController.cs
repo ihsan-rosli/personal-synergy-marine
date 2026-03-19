@@ -59,7 +59,7 @@ namespace synergymarine_v1.Controllers
             return View();
         }
 
-        public IActionResult MD()
+        public IActionResult NewStraitsTimes()
         {
             return View();
         }

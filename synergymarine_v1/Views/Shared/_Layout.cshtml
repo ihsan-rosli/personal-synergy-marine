@@ -12,618 +12,649 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <style>
-        :root {
-            --primary-color: #1a365d;
-            --secondary-color: #2563eb;
-            --accent-color: #3b82f6;
-            --text-dark: #1e293b;
-            --text-light: #64748b;
-            --bg-light: #f8fafc;
-            --border-color: #e2e8f0;
-            --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
-            --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
-            --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
-            --nav-height: 70px;
-        }
+  <style>
 
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    :root {
+        --primary-color: #1a365d;
+        --secondary-color: #2563eb;
+        --accent-color: #3b82f6;
+        --text-dark: #1e293b;
+        --text-light: #64748b;
+        --bg-light: #f8fafc;
+        --border-color: #e2e8f0;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+        --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
+        --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
+        --nav-height: 70px;
+    }
 
-        html, body {
-            height: 100%;
-            width: 100%;
-        }
+    *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-        body {
-            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            color: var(--text-dark);
-            background-color: #ffffff;
-            line-height: 1.6;
-            overflow-x: hidden;
-            display: flex;
-            flex-direction: column;
-        }
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
 
-        /* ════════════════════════════════
-                   TOP INFO BAR  — blue background
-                   ════════════════════════════════ */
-        .topbar {
-            background-color: #1a365d; /* vibrant blue */
-            color: rgba(255,255,255,0.95);
-            font-size: 12px;
-            padding: 0.5rem 0;
-            width: 100%;
-            position: relative;
-            z-index: 1001;
-            display: block !important;
-            visibility: visible !important;
-            border-bottom: 1px solid rgba(255,255,255,0.12);
-        }
+    .cp-content-wrapper {
+        text-align: justify;
+    }
 
-            .topbar .container-fluid {
-                max-width: 1400px;
-                margin: 0 auto;
-                padding: 0 1.5rem;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                gap: 0.5rem;
-            }
+    body {
+        font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        color: var(--text-dark);
+        background-color: #ffffff;
+        line-height: 1.6;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+    }
 
-        .topbar-left {
+    /* ════════════════════════════════
+               TOP INFO BAR
+               ════════════════════════════════ */
+    .topbar {
+        background-color: #1a365d;
+        color: rgba(255,255,255,0.95);
+        font-size: 12px;
+        padding: 0.5rem 0;
+        width: 100%;
+        position: relative;
+        z-index: 1001;
+        display: block !important;
+        visibility: visible !important;
+        border-bottom: 1px solid rgba(255,255,255,0.12);
+    }
+
+        .topbar .container-fluid {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
             display: flex;
             align-items: center;
-            gap: 1.25rem;
-            flex-wrap: wrap;
-            min-width: 0;
-        }
-
-        .topbar-item {
-            display: flex;
-            align-items: center;
-            gap: 0.35rem;
-            color: rgba(255,255,255,0.9);
-            text-decoration: none;
-            transition: color 0.2s;
-            white-space: nowrap;
-            font-size: 12px;
-        }
-
-            .topbar-item:hover {
-                color: #ffffff;
-            }
-
-            .topbar-item i {
-                font-size: 11px;
-                color: #bfdbfe;
-                flex-shrink: 0;
-            }
-
-        .topbar-right {
-            display: flex;
-            align-items: center;
+            justify-content: space-between;
             gap: 0.5rem;
+        }
+
+    .topbar-left {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        flex-wrap: wrap;
+        min-width: 0;
+    }
+
+    .topbar-item {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        color: rgba(255,255,255,0.9);
+        text-decoration: none;
+        transition: color 0.2s;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+        .topbar-item:hover {
+            color: #ffffff;
+        }
+
+        .topbar-item i {
+            font-size: 11px;
+            color: #bfdbfe;
             flex-shrink: 0;
         }
 
-        .topbar-social {
+    .topbar-right {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+    }
+
+    .topbar-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.15);
+        color: rgba(255,255,255,0.9);
+        text-decoration: none;
+        font-size: 12px;
+        transition: all 0.2s;
+    }
+
+        .topbar-social:hover {
+            background: rgba(255,255,255,0.3);
+            color: #fff;
+            transform: translateY(-1px);
+        }
+
+    /* ════════════════════════════════
+               NAVBAR
+               ════════════════════════════════ */
+    .navbar-corporate {
+        background: #ffffff;
+        padding: 0;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        transition: box-shadow 0.3s;
+        width: 100%;
+        border-bottom: 1px solid #e5e7eb;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+        .navbar-corporate.scrolled {
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+
+        .navbar-corporate .container-fluid {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
             display: flex;
             align-items: center;
-            justify-content: center;
-            width: 26px;
-            height: 26px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.15);
-            color: rgba(255,255,255,0.9);
-            text-decoration: none;
-            font-size: 12px;
-            transition: all 0.2s;
-        }
-
-            .topbar-social:hover {
-                background: rgba(255,255,255,0.3);
-                color: #fff;
-                transform: translateY(-1px);
-            }
-
-        /* ════════════════════════════════
-                   NAVBAR
-                   ════════════════════════════════ */
-        .navbar-corporate {
-            background: #ffffff;
-            padding: 0;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-            transition: box-shadow 0.3s;
+            justify-content: space-between;
             width: 100%;
-            border-bottom: 1px solid #e5e7eb;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
         }
 
-            .navbar-corporate.scrolled {
-                box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    .navbar-brand {
+        font-weight: 700;
+        color: #1a365d !important;
+        transition: opacity 0.2s;
+        padding: 0.75rem 0;
+        margin: 0;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-logo {
+        height: 42px;
+        width: auto;
+    }
+
+    .navbar-brand:hover {
+        opacity: 0.8;
+    }
+
+    .navbar-nav {
+        align-items: center;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .navbar-nav .nav-link {
+        color: #1f2937 !important;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 1.4rem 0.7rem !important;
+        border-bottom: 3px solid transparent;
+        transition: all 0.2s;
+        white-space: nowrap;
+        position: relative;
+    }
+
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            color: #dc2626 !important;
+            border-bottom-color: #dc2626;
+        }
+
+    .navbar-nav .dropdown-menu {
+        border-radius: 12px;
+        box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+        padding: 0.5rem 0;
+        margin-top: 0;
+        min-width: 220px;
+        border: 1px solid #e5e7eb;
+        background: #ffffff;
+        overflow: hidden;
+    }
+
+    .navbar-nav .dropdown-item {
+        color: #1f2937;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0.75rem 1.25rem;
+        transition: all 0.15s;
+        background: transparent;
+        display: block;
+    }
+
+        .navbar-nav .dropdown-item:hover,
+        .navbar-nav .dropdown-item:focus {
+            background: #fff5f5;
+            color: #dc2626;
+            padding-left: 1.5rem;
+        }
+
+        .navbar-nav .dropdown-item + .dropdown-item {
+            border-top: 1px solid #f1f5f9;
+        }
+
+    .navbar-nav .dropdown-toggle::after {
+        display: none;
+    }
+
+    .navbar-nav .dropdown > a::after {
+        content: '';
+        display: inline-block;
+        margin-left: 0.3rem;
+        vertical-align: 0.1rem;
+        border-top: 0.28em solid;
+        border-right: 0.28em solid transparent;
+        border-left: 0.28em solid transparent;
+        transition: transform 0.2s;
+    }
+
+    .navbar-nav .dropdown.show > a::after {
+        transform: rotate(180deg);
+    }
+
+    .navbar-toggler {
+        border: 1px solid #d1d5db;
+        padding: 0.45rem 0.65rem;
+        border-radius: 8px;
+        background: transparent;
+    }
+
+        .navbar-toggler:focus {
+            box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+            border-color: #2563eb;
+        }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2831,41,55,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    /* ════════════════════════════════
+               MAIN
+               ════════════════════════════════ */
+    .main-container {
+        flex: 1 0 auto;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background: #ffffff;
+    }
+
+    main {
+        animation: pgFadeIn 0.45s ease;
+    }
+
+    @@keyframes pgFadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(8px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* ════════════════════════════════
+               FOOTER
+               ════════════════════════════════ */
+    .footer-corporate {
+        flex-shrink: 0;
+        background-color: #1a365d;
+        color: rgba(255,255,255,0.8);
+        padding: 3.5rem 0 0;
+        width: 100%;
+    }
+
+        .footer-corporate .footer-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1.5fr;
+        gap: 2.5rem;
+        margin-bottom: 2.5rem;
+        align-items: start;
+    }
+
+    .footer-section h5 {
+        color: #ffffff;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .footer-section h6 {
+        color: rgba(255,255,255,0.9);
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-section p,
+    .footer-section a {
+        color: rgba(255,255,255,0.65);
+        text-decoration: none;
+        display: block;
+        margin-bottom: 0.4rem;
+        transition: all 0.2s;
+        line-height: 1.75;
+        font-size: 13px;
+    }
+
+        .footer-section a:hover {
+            color: #93c5fd;
+            padding-left: 4px;
+        }
+
+    .footer-section ul {
+        color: rgba(255,255,255,0.65);
+        font-size: 13px;
+        padding-left: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+
+        .footer-section ul li {
+            margin-bottom: 0.25rem;
+            line-height: 1.7;
+        }
+
+    .footer-social-icons {
+        display: flex;
+        gap: 0.6rem;
+        margin-top: 1rem;
+    }
+
+    .footer-social-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.15);
+        color: rgba(255,255,255,0.9);
+        font-size: 14px;
+        text-decoration: none;
+        transition: all 0.2s;
+        flex-shrink: 0;
+    }
+
+        .footer-social-btn:hover {
+            background: rgba(255,255,255,0.3);
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+    .contact-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.5rem;
+        margin-bottom: 0.65rem;
+    }
+
+        .contact-item span {
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .contact-item p {
+            margin: 0;
+            color: rgba(255,255,255,0.65);
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+    .footer-map {
+        border-radius: 10px;
+        overflow: hidden;
+        height: 220px;
+        margin-top: 0.75rem;
+        border: 1px solid rgba(255,255,255,0.1);
+    }
+
+        .footer-map iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            filter: brightness(0.85) contrast(1.1);
+        }
+
+    .footer-bottom {
+        border-top: 1px solid rgba(255,255,255,0.08);
+        padding: 1.25rem 2rem;
+        text-align: center;
+        font-size: 12px;
+        background: rgba(0,0,0,0.18);
+        color: rgba(255,255,255,0.6);
+    }
+
+        .footer-bottom a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+            .footer-bottom a:hover {
+                color: #93c5fd;
             }
 
-            .navbar-corporate .container-fluid {
-                max-width: 1400px;
-                margin: 0 auto;
-                padding: 0 1.5rem;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 100%;
-            }
+    /* Cards & Buttons */
+    .card {
+        border: none;
+        border-radius: 12px;
+        box-shadow: var(--shadow-sm);
+        transition: all 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+
+    .btn-primary {
+        background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+        border: none;
+        padding: 0.75rem 2rem;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: all 0.3s;
+    }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+    /* Page Loader */
+    .page-loader {
+        position: fixed;
+        inset: 0;
+        background: #1a365d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease;
+    }
+
+        .page-loader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+    .loader-spinner {
+        width: 46px;
+        height: 46px;
+        border: 3px solid rgba(255,255,255,0.2);
+        border-top-color: #ffffff;
+        border-radius: 50%;
+        animation: spin 0.9s linear infinite;
+    }
+
+    @@keyframes spin {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* ════ Responsive ════ */
+    @@media (max-width: 1200px) {
+        .footer-content {
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+    }
+
+    @@media (max-width: 1024px) {
+        .navbar-nav .nav-link {
+            font-size: 13px;
+            padding: 1.4rem 0.55rem !important;
+        }
+
+        .footer-content {
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+    }
+
+    @@media (max-width: 991px) {
+        .navbar-corporate .container-fluid {
+            flex-wrap: wrap;
+            padding: 0.5rem 1rem;
+        }
 
         .navbar-brand {
-            font-weight: 700;
-            color: #1a365d !important;
-            transition: opacity 0.2s;
-            padding: 0.75rem 0;
-            margin: 0;
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
+            padding: 0.5rem 0;
         }
 
         .navbar-logo {
-            height: 42px;
-            width: auto;
-        }
-
-        .navbar-brand:hover {
-            opacity: 0.8;
-        }
-
-        .navbar-nav {
-            align-items: center;
-            flex-direction: row;
-            gap: 0;
+            height: 36px;
         }
 
         .navbar-collapse {
-            flex-grow: 0;
+            width: 100%;
+            background: #fff;
+            border-top: 1px solid #e5e7eb;
+            max-height: 75vh;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
         }
 
-        .navbar-nav .nav-link {
-            color: #1f2937 !important;
-            font-weight: 500;
-            font-size: 14px;
-            padding: 1.4rem 0.7rem !important;
-            border-bottom: 3px solid transparent;
-            transition: all 0.2s;
-            white-space: nowrap;
-            position: relative;
-        }
-
-            .navbar-nav .nav-link:hover,
-            .navbar-nav .nav-link.active {
-                color: #dc2626 !important; /* red on hover */
-                border-bottom-color: #dc2626;
-            }
-
-        .navbar-nav .dropdown-menu {
-            border-radius: 12px;
-            box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+        .navbar-nav {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0;
             padding: 0.5rem 0;
-            margin-top: 0;
-            min-width: 220px;
-            border: 1px solid #e5e7eb;
-            background: #ffffff;
-            overflow: hidden;
         }
 
-        .navbar-nav .dropdown-item {
-            color: #1f2937;
-            font-weight: 500;
-            font-size: 14px;
-            padding: 0.75rem 1.25rem;
-            transition: all 0.15s;
-            background: transparent;
-            display: block;
-        }
-
-            .navbar-nav .dropdown-item:hover,
-            .navbar-nav .dropdown-item:focus {
-                background: #fff5f5;
-                color: #dc2626; /* red on hover */
-                padding-left: 1.5rem;
+            .navbar-nav .nav-link {
+                padding: 0.8rem 1.25rem !important;
+                border-bottom: none !important;
+                border-left: 3px solid transparent !important;
+                font-size: 15px;
             }
 
-            .navbar-nav .dropdown-item + .dropdown-item {
-                border-top: 1px solid #f1f5f9;
+                .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+                    color: #dc2626 !important;
+                    border-left-color: #dc2626 !important;
+                    background: #fff5f5;
+                }
+
+            .navbar-nav .dropdown-menu {
+                border: none;
+                box-shadow: none;
+                border-radius: 0;
+                padding: 0;
+                min-width: 100%;
+                background: #f8fafc;
+                margin: 0;
+                overflow: visible;
             }
 
-        .navbar-nav .dropdown-toggle::after {
+            .navbar-nav .dropdown-item {
+                font-size: 14px;
+                padding: 0.65rem 1.75rem;
+                border-top: 1px solid #e5e7eb;
+                color: #374151;
+            }
+
+                .navbar-nav .dropdown-item:hover {
+                    color: #2563eb;
+                    background: #eff6ff;
+                    padding-left: 2rem;
+                }
+
+            .navbar-nav .dropdown > a::after {
+                float: right;
+                margin-top: 0.4rem;
+            }
+    }
+
+    @@media (max-width: 768px) {
+        .topbar-item.topbar-addr {
             display: none;
         }
 
-        .navbar-nav .dropdown > a::after {
-            content: '';
-            display: inline-block;
-            margin-left: 0.3rem;
-            vertical-align: 0.1rem;
-            border-top: 0.28em solid;
-            border-right: 0.28em solid transparent;
-            border-left: 0.28em solid transparent;
-            transition: transform 0.2s;
+        .topbar .container-fluid {
+            padding: 0 1rem;
         }
 
-        .navbar-nav .dropdown.show > a::after {
-            transform: rotate(180deg);
-        }
-
-        .navbar-toggler {
-            border: 1px solid #d1d5db;
-            padding: 0.45rem 0.65rem;
-            border-radius: 8px;
-            background: transparent;
-        }
-
-            .navbar-toggler:focus {
-                box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
-                border-color: #2563eb;
-            }
-
-        .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2831,41,55,1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-        }
-
-        /* ════════════════════════════════
-                   MAIN
-                   ════════════════════════════════ */
-        .main-container {
-            flex: 1 0 auto;
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            background: #ffffff;
-        }
-
-        main {
-            animation: pgFadeIn 0.45s ease;
-        }
-
-        @@keyframes pgFadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(8px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* ════════════════════════════════
-                   FOOTER
-                   ════════════════════════════════ */
         .footer-corporate {
-            flex-shrink: 0;
-            background-color: #1a365d;
-            color: rgba(255,255,255,0.8);
-            padding: 3.5rem 0 0;
-            width: 100%;
+            padding: 2.5rem 0 0;
         }
 
             .footer-corporate .footer-inner {
-                max-width: 1400px;
-                margin: 0 auto;
-                padding: 0 2rem;
+                padding: 0 1.25rem;
             }
 
         .footer-content {
-            display: grid;
-            grid-template-columns: 2fr 1fr 1.5fr;
-            gap: 3rem;
-            margin-bottom: 2.5rem;
+            grid-template-columns: 1fr;
+            gap: 1.75rem;
         }
-
-        .footer-section h5 {
-            color: #ffffff;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
-
-        .footer-section h6 {
-            color: rgba(255,255,255,0.9);
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-        }
-
-        .footer-section p,
-        .footer-section a {
-            color: rgba(255,255,255,0.65);
-            text-decoration: none;
-            display: block;
-            margin-bottom: 0.4rem;
-            transition: all 0.2s;
-            line-height: 1.75;
-            font-size: 13px;
-        }
-
-            .footer-section a:hover {
-                color: #93c5fd;
-                padding-left: 4px;
-            }
-
-        .footer-section ul {
-            color: rgba(255,255,255,0.65);
-            font-size: 13px;
-            padding-left: 1.1rem;
-            margin-bottom: 0.75rem;
-        }
-
-            .footer-section ul li {
-                margin-bottom: 0.25rem;
-                line-height: 1.7;
-            }
-
-        .contact-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 0.5rem;
-            margin-bottom: 0.65rem;
-        }
-
-            .contact-item span {
-                flex-shrink: 0;
-                margin-top: 1px;
-            }
-
-            .contact-item p {
-                margin: 0;
-                color: rgba(255,255,255,0.65);
-                font-size: 13px;
-                line-height: 1.6;
-            }
 
         .footer-map {
-            border-radius: 10px;
-            overflow: hidden;
-            height: 220px;
-            margin-top: 0.75rem;
-            border: 1px solid rgba(255,255,255,0.1);
+            height: 180px;
         }
-
-            .footer-map iframe {
-                width: 100%;
-                height: 100%;
-                border: 0;
-                filter: brightness(0.85) contrast(1.1);
-            }
 
         .footer-bottom {
-            border-top: 1px solid rgba(255,255,255,0.08);
-            padding: 1.25rem 2rem;
-            text-align: center;
-            font-size: 12px;
-            background: rgba(0,0,0,0.18);
-            color: rgba(255,255,255,0.6);
+            padding: 1rem 1.25rem;
+            font-size: 11px;
+        }
+    }
+
+    @@media (max-width: 480px) {
+        .topbar-item.topbar-email {
+            display: none;
         }
 
-            .footer-bottom a {
-                color: #60a5fa;
-                text-decoration: none;
-            }
-
-                .footer-bottom a:hover {
-                    color: #93c5fd;
-                }
-
-        /* Cards & Buttons */
-        .card {
-            border: none;
-            border-radius: 12px;
-            box-shadow: var(--shadow-sm);
-            transition: all 0.3s ease;
+        .topbar-left {
+            gap: 0.75rem;
         }
 
-            .card:hover {
-                box-shadow: var(--shadow-lg);
-                transform: translateY(-4px);
-            }
-
-        .btn-primary {
-            background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
-            border: none;
-            padding: 0.75rem 2rem;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: all 0.3s;
+        .topbar-item span {
+            font-size: 11px;
         }
 
-            .btn-primary:hover {
-                transform: translateY(-2px);
-                box-shadow: var(--shadow-md);
-            }
-
-        /* Page Loader */
-        .page-loader {
-            position: fixed;
-            inset: 0;
-            background: #1a365d;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            transition: opacity 0.5s ease;
+        .navbar-logo {
+            height: 32px;
         }
-
-            .page-loader.hidden {
-                opacity: 0;
-                pointer-events: none;
-            }
-
-        .loader-spinner {
-            width: 46px;
-            height: 46px;
-            border: 3px solid rgba(255,255,255,0.2);
-            border-top-color: #ffffff;
-            border-radius: 50%;
-            animation: spin 0.9s linear infinite;
-        }
-
-        @@keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        /* ════ Responsive ════ */
-        @@media (max-width: 1024px) {
-            .navbar-nav .nav-link {
-                font-size: 13px;
-                padding: 1.4rem 0.55rem !important;
-            }
-
-            .footer-content {
-                grid-template-columns: 1fr 1fr;
-                gap: 2rem;
-            }
-
-                .footer-content .footer-section:first-child {
-                    grid-column: 1 / -1;
-                }
-        }
-
-        @@media (max-width: 991px) {
-            .navbar-corporate .container-fluid {
-                flex-wrap: wrap;
-                padding: 0.5rem 1rem;
-            }
-
-            .navbar-brand {
-                padding: 0.5rem 0;
-            }
-
-            .navbar-logo {
-                height: 36px;
-            }
-
-            .navbar-collapse {
-                width: 100%;
-                background: #fff;
-                border-top: 1px solid #e5e7eb;
-                max-height: 75vh;
-                overflow-y: auto;
-                -webkit-overflow-scrolling: touch;
-            }
-
-            .navbar-nav {
-                flex-direction: column;
-                align-items: stretch;
-                gap: 0;
-                padding: 0.5rem 0;
-            }
-
-                .navbar-nav .nav-link {
-                    padding: 0.8rem 1.25rem !important;
-                    border-bottom: none !important;
-                    border-left: 3px solid transparent !important;
-                    font-size: 15px;
-                }
-
-                    .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
-                        color: #dc2626 !important; /* red on hover */
-                        border-left-color: #dc2626 !important;
-                        background: #fff5f5;
-                    }
-
-                .navbar-nav .dropdown-menu {
-                    border: none;
-                    box-shadow: none;
-                    border-radius: 0;
-                    padding: 0;
-                    min-width: 100%;
-                    background: #f8fafc;
-                    margin: 0;
-                    overflow: visible;
-                }
-
-                .navbar-nav .dropdown-item {
-                    font-size: 14px;
-                    padding: 0.65rem 1.75rem;
-                    border-top: 1px solid #e5e7eb;
-                    color: #374151;
-                }
-
-                    .navbar-nav .dropdown-item:hover {
-                        color: #2563eb;
-                        background: #eff6ff;
-                        padding-left: 2rem;
-                    }
-
-                .navbar-nav .dropdown > a::after {
-                    float: right;
-                    margin-top: 0.4rem;
-                }
-        }
-
-        @@media (max-width: 768px) {
-            .topbar-item.topbar-addr {
-                display: none;
-            }
-
-            .topbar .container-fluid {
-                padding: 0 1rem;
-            }
-
-            .footer-corporate {
-                padding: 2.5rem 0 0;
-            }
-
-                .footer-corporate .footer-inner {
-                    padding: 0 1.25rem;
-                }
-
-            .footer-content {
-                grid-template-columns: 1fr;
-                gap: 1.75rem;
-            }
-
-                .footer-content .footer-section:first-child {
-                    grid-column: auto;
-                }
-
-            .footer-map {
-                height: 180px;
-            }
-
-            .footer-bottom {
-                padding: 1rem 1.25rem;
-                font-size: 11px;
-            }
-        }
-
-        @@media (max-width: 480px) {
-            .topbar-item.topbar-email {
-                display: none;
-            }
-
-            .topbar-left {
-                gap: 0.75rem;
-            }
-
-            .topbar-item span {
-                font-size: 11px;
-            }
-
-            .navbar-logo {
-                height: 32px;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
-
     <!-- Page Loader -->
     <div class="page-loader" id="pageLoader">
         <div class="loader-spinner"></div>
@@ -647,12 +678,13 @@
                 </span>
             </div>
             <div class="topbar-right">
-                <a href="https://www.facebook.com/people/Synergy-Marine-M-Sdn-Bhd/61581695814415/" target="_blank" rel="noopener noreferrer" class="topbar-social" title="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
                 <a href="https://www.linkedin.com/company/synergy-marine-m-sdn-bhd/" target="_blank" rel="noopener noreferrer" class="topbar-social" title="LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
+                <a href="https://www.facebook.com/people/Synergy-Marine-M-Sdn-Bhd/61581695814415/" target="_blank" rel="noopener noreferrer" class="topbar-social" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+             
             </div>
         </div>
     </div>
@@ -680,7 +712,7 @@
                                data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                             <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
                                 <li><a class="dropdown-item" asp-area="" asp-controller="About" asp-action="CompanyProfile">Company Profile</a></li>
-                                <li><a class="dropdown-item" asp-area="" asp-controller="About" asp-action="MdMeeting">MD Meeting</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="About" asp-action="MdMeeting">MD's Meeting</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="About" asp-action="VisionMission">Vision &amp; Mission</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="About" asp-action="CoreValues">Core Values</a></li>
                                 <li><a class="dropdown-item" asp-area="" asp-controller="About" asp-action="HSE">HSE</a></li>
@@ -702,12 +734,23 @@
                                 <li><a class="dropdown-item" asp-area="" asp-controller="Fleet" asp-action="OurFleetSpecifications">Fleet Specifications</a></li>
                             </ul>
                         </li>
-                      @*   <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="GoGreen" asp-action="GoGreen">Go Green</a>
-                        </li> *@
+
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="News" asp-action="News">News</a>
+                            <a class="nav-link" asp-area="" asp-controller="ESG" asp-action="ESG">ESG</a>
                         </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="fleetDropdown" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">Media</a>
+                            <ul class="dropdown-menu" aria-labelledby="fleetDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="News" asp-action="News">News</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="News" asp-action="VesselOperations">Vessel Operations</a></li>
+@*                                 <li><a class="dropdown-item" asp-area="" asp-controller="News" asp-action="HSEGlamping">HSE Glamping</a></li>
+ *@                            </ul>
+                        </li>
+                      @*   <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="News" asp-action="News">News</a>
+                        </li> *@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="License_Cert" asp-action="License">License &amp; Cert</a>
                         </li>
@@ -731,39 +774,88 @@
     </div>
 
     <!-- ── FOOTER ── -->
-    <footer class="footer-corporate">
-        <div class="footer-inner">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h5>About Company</h5>
-                    <p>
-                        Synergy Marine (M) Sdn. Bhd. was established in 2012 as a Bumiputera company.
-                        We are registered under the Companies Commission of Malaysia (1019421-T) and the
-                        Ministry of Finance, specialising in marine transportation services for the oil &amp; gas industry.
-                    </p>
-                </div>
-                <div class="footer-section">
-                    <h5>Contact Details</h5>
-                    <div class="contact-item"><span>📍</span><p>No. 21, Jalan Tukul P 15/P, Seksyen 15, 40200 Shah Alam, Selangor</p></div>
-                    <div class="contact-item"><span>📞</span><p>603-5510 8260 / 8261</p></div>
-                    <div class="contact-item"><span>📠</span><p>603-55234431</p></div>
-                    <div class="contact-item"><span>✉️</span><p>info@synergymarine.com.my</p></div>
-                </div>
-                <div class="footer-section">
-                    <h5>Our Location</h5>
-                    <div class="footer-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9341234567!2d101.5213456!3d3.0724777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc52a0e5d0f9c5%3A0x1234567890abcdef!2sJalan%20Tukul%2C%20Seksyen%2015%2C%20Shah%20Alam%2C%20Selangor!5e0!3m2!1sen!2smy!4v1234567890123!5m2!1sen!2smy"
-                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Synergy Marine Location">
-                        </iframe>
-                    </div>
+<footer class="footer-corporate">
+    <div class="footer-inner">
+        <div class="footer-content">
+
+            <!-- Col 1: About + Social -->
+            <div class="footer-section">
+                <h5>About Company</h5>
+                <p>
+                    Synergy Marine (M) Sdn. Bhd. was established in 2012 as a Bumiputera company.
+                    We are registered under the Companies Commission of Malaysia (1019421-T) and the
+                    Ministry of Finance, specialising in marine transportation services for the oil &amp; gas industry.
+                </p>
+                <div style="display:flex; gap:0.6rem; margin-top:1rem;">
+                    <a href="https://www.linkedin.com/company/synergy-marine-m-sdn-bhd/"
+                       target="_blank" rel="noopener noreferrer" title="LinkedIn"
+                       style="display:flex;align-items:center;justify-content:center;width:34px;height:34px;
+                              border-radius:50%;background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);
+                              font-size:14px;text-decoration:none;transition:all 0.2s;flex-shrink:0;">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/people/Synergy-Marine-M-Sdn-Bhd/61581695814415/"
+                       target="_blank" rel="noopener noreferrer" title="Facebook"
+                       style="display:flex;align-items:center;justify-content:center;width:34px;height:34px;
+                              border-radius:50%;background:rgba(255,255,255,0.15);color:rgba(255,255,255,0.9);
+                              font-size:14px;text-decoration:none;transition:all 0.2s;flex-shrink:0;">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
                 </div>
             </div>
+
+            <!-- Col 2: Quick Links -->
+            <div class="footer-section">
+                <h5>Quick Links</h5>
+                <a asp-area="" asp-controller="Home" asp-action="Home">Home</a>
+                <a asp-area="" asp-controller="About" asp-action="CompanyProfile">Company Profile</a>
+                <a asp-area="" asp-controller="About" asp-action="VisionMission">Vision &amp; Mission</a>
+                <a asp-area="" asp-controller="About" asp-action="CoreValues">Core Values</a>
+                <a asp-area="" asp-controller="Service" asp-action="CapabilitySpectrum">Capability Spectrum</a>
+                <a asp-area="" asp-controller="Fleet" asp-action="FleetOverview">Fleet Overview</a>
+                <a asp-area="" asp-controller="ESG" asp-action="ESG">ESG</a>
+                <a asp-area="" asp-controller="News" asp-action="News">News</a>
+                <a asp-area="" asp-controller="License_Cert" asp-action="License">License &amp; Cert</a>
+                <a asp-area="" asp-controller="Career" asp-action="Career">Career</a>
+                <a asp-area="" asp-controller="ContactUs" asp-action="ContactUs">Contact</a>
+            </div>
+
+            <!-- Col 3: Contact Details -->
+            <div class="footer-section">
+                <h5>Contact Details</h5>
+                <div class="contact-item">
+                    <span>📍</span>
+                    <p>No. 21, Jalan Tukul P 15/P, Seksyen 15, 40200 Shah Alam, Selangor</p>
+                </div>
+                <div class="contact-item">
+                    <span>📞</span>
+                    <p>603-5510 8260 / 8261</p>
+                </div>
+                <div class="contact-item">
+                    <span>📠</span>
+                    <p>603-55234431</p>
+                </div>
+                <div class="contact-item">
+                    <span>✉️</span>
+                    <p>info@synergymarine.com.my</p>
+                </div>
+            </div>
+
+            <!-- Col 4: Map -->
+            <div class="footer-section">
+                <h5>Our Location</h5>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.11277371547!2d101.52130701059669!3d3.0645129968983564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4d62befc493f%3A0x63d36791f4cb87fd!2sSynergy%20Marine%20(M)%20Sdn%20Bhd!5e0!3m2!1sen!2smy!4v1773639439239!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Synergy Marine Office Location"></iframe>
+          
+                </div>
+            </div>
+
         </div>
-        <div class="footer-bottom">
-            Copyright &copy; Synergy Marine Sdn. Bhd. 2012. All Rights Reserved.
-            Designed &amp; Developed by Aina.
-        </div>
-    </footer>
+    </div>
+    <div class="footer-bottom">
+        Copyright &copy; Synergy Marine Sdn. Bhd. 2012. All Rights Reserved.
+    </div>
+</footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -18,7 +18,7 @@
     .news-hero-bg {
         position: absolute;
         inset: 0;
-        background: url('/images/synergyexplorer.png') center center / cover no-repeat;
+        background: url('/images/6.jpg') center center / cover no-repeat;
         filter: brightness(0.85);
         transform: scale(1.03);
         transition: transform 8s ease;
@@ -196,6 +196,7 @@
         background: #eff6ff;
         border-left: 4px solid #2563eb;
         border-radius: 0 8px 8px 0;
+        text-align: justify; /* ← ADD THIS */
     }
 
     .news-body-text {
@@ -203,13 +204,14 @@
         color: #4b5563;
         line-height: 1.9;
         margin-bottom: 1.25rem;
+        text-align: justify; /* ← ADD THIS */
     }
 
     /* Image caption */
     .news-caption {
         font-size: 0.78rem;
         color: #94a3b8;
-        text-align: center;
+        text-align: justify; /* ← CHANGE from center to justify */
         margin-top: -0.5rem;
         margin-bottom: 1.75rem;
         font-style: italic;
@@ -238,8 +240,7 @@
 
     /* ── SIDEBAR ── */
     .news-sidebar {
-        position: sticky;
-        top: 100px;
+        position: static;
         display: flex;
         flex-direction: column;
         gap: 1.25rem;
@@ -408,7 +409,7 @@
     <div class="news-hero-overlay"></div>
     <div class="news-hero-content">
         <p class="news-breadcrumb">
-            <a href="/news">News</a> &nbsp;/&nbsp; Carigali – PTTEPI Operating Company Sdn Bhd (CPOC)
+            <a href="/News/News">News</a> &nbsp;/&nbsp; Carigali – PTTEPI Operating Company Sdn Bhd (CPOC)
         </p>
         <h1 class="news-hero-title">Carigali – PTTEPI Operating Company Sdn Bhd (CPOC)</h1>
     </div>
